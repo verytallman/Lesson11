@@ -7,4 +7,15 @@ package Task1;
 //
 
 public class App {
+    public static void main(String[] args) {
+        FigureBasicClass triangle = new Triangle(6,6);
+        triangle.perimeterCounter();
+
+        FigureBasicClass square = new Rectangle(5,5);
+        square.perimeterCounter();
+
+        FigureBasicClass diamond = new Diamond(5,5);
+        diamond.perimeterCounter();
+
+    }
 }
