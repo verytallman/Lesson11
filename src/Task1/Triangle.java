@@ -11,7 +11,7 @@ public class Triangle extends FigureBasicClass{
 
     public void perimeterCounter(){
         int s = (int) (0.5 * b * h);
-        System.out.println("Площадь заданого треугольника равна "+s+" см2");
+        System.out.println("Площадь заданого треугольника равна "+s+" см2.");
     }
 
 }

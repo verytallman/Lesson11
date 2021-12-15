@@ -13,6 +13,6 @@ public class Rectangle extends FigureBasicClass{
 
     public void perimeterCounter(){
         int s = length * width;
-        System.out.println("Площадь заданого прямоугольника равна "+s+" см2");
+        System.out.println("Площадь заданого прямоугольника равна "+s+" см2.");
     }
 }

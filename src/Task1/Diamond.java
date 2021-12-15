@@ -11,6 +11,6 @@ public class Diamond extends FigureBasicClass {
 
     public void perimeterCounter(){
         int s = (int) (a * h);
-        System.out.println("Площадь заданого ромба равна "+s+" см2");
+        System.out.println("Площадь заданого ромба равна "+s+" см2.");
     }
 }
