@@ -16,26 +16,21 @@ package Task2;
 
 //        Смотрите решение задачи в https://youtu.be/YQAY9HDdezs.
 
-public class App {
+public class App{
     public static void main(String[] args) {
         Printable Vogue = new Magazine("Vogue");
-
         Printable Time = new Magazine("Time");
-
         Printable Idiot = new Book("Idiot by Fedor Dostoevsky");
-
         Printable It = new Book("It by Steven King");
 
-
-//        Magazine.printMagazines(Vogue, Time);
-
         Printable [] printables = {Vogue,Time,Idiot,It};
+
         for (Printable printable : printables){
             printable.print();
         }
 
-//        Magazine.printMagazines(new Printable[]{Vogue, Time});
-
+        Magazine.printMagazines(printables);
+        Book.printBooks(printables);
 
     }
 }
