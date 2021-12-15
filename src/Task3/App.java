@@ -8,4 +8,22 @@ package Task3;
 //        В цикле вызвать метод play() для каждого инструмента, который должен выводить строку "Играет такой-то инструмент, с такими-то характеристиками".
 
 public class App {
+    public static void main(String[] args) {
+        Instrument guitar = new Guitar(5);
+        Instrument drums = new Drums(7);
+        Instrument tube = new Tube(123);
+
+        guitar.play();
+        drums.play();
+        tube.play();
+
+
+
+        Instrument [] instruments = new Instrument[]{guitar,drums,tube};
+        int i;
+        for (i = 0; i < instruments.length; i++){
+
+        }
+
+    }
 }
