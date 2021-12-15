@@ -1,7 +1,11 @@
 package Task2;
 
 public class Book implements Printable {
-    public static String bookName;
+    private String bookName;
+
+    public Book(String bookName) {
+        this.bookName = bookName;
+    }
 
     public void print(){
         System.out.println("Название книги "+ bookName);

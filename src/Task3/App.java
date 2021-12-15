@@ -13,16 +13,10 @@ public class App {
         Instrument drums = new Drums(7);
         Instrument tube = new Tube(123);
 
-        guitar.play();
-        drums.play();
-        tube.play();
-
-
 
         Instrument [] instruments = new Instrument[]{guitar,drums,tube};
-        int i;
-        for (i = 0; i < instruments.length; i++){
-
+        for (Instrument instrument : instruments){
+            instrument.play();
         }
 
     }
