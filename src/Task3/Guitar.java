@@ -9,6 +9,6 @@ public class Guitar implements Instrument{
         }
 
         public void play(){
-                System.out.println("Сейчас играет "+name+" с количеством струн - "+количествоСтрун);
+                System.out.println("Сейчас играет "+name+" с количеством струн - "+количествоСтрун+".");
         }
 }

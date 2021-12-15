@@ -9,6 +9,6 @@ public class Tube implements Instrument{
     }
 
     public void play(){
-        System.out.println("Сейчас играет "+name+" с диаметром трубы - "+диаметрТрубы+" мм");
+        System.out.println("Сейчас играет "+name+" с диаметром трубы - "+диаметрТрубы+" мм.");
     }
 }

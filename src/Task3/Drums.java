@@ -9,6 +9,6 @@ public class Drums implements Instrument{
     }
 
     public void play(){
-        System.out.println("Сейчас играет "+name+" с размером барабана - "+размерБарабана);
+        System.out.println("Сейчас играет "+name+" с размером барабана - "+размерБарабана+" единиц.");
     }
 }
